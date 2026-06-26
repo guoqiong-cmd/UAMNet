@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+tensorflow==2.13.1
+keras==2.13.1
+h5py
+
