@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+figures/*
+weights/retrained/*
+data/uamnet_split_data.npz
+data/uamnet_split_data_metadata.json
+results/internal_test/particle_predictions.csv
+*.log

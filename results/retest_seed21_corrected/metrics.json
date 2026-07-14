@@ -1,0 +1,18 @@
+{
+  "n_particles": 249,
+  "mc_samples": 40,
+  "particle_std_aggregation": "mean",
+  "logvar_clip": [
+    -4.0,
+    2.0
+  ],
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "r2": 0.74242274721425,
+  "mae_days": 2.520746458905289,
+  "rmse_days": 3.4505301919090567,
+  "coverage_95": 0.9718875502008032,
+  "mean_aleatoric_std_day": 3.423237988612604,
+  "mean_epistemic_std_day": 0.49133691330910595,
+  "mean_total_std_day": 3.4615771442668355
+}

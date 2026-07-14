@@ -1,0 +1,23 @@
+{
+  "data_file": "data/uamnet_split_data.npz",
+  "best_model_path": "weights/UAMNet_best.h5",
+  "epochs": 300,
+  "batch_size": 128,
+  "seed": 20,
+  "warmup_loss": "mu_mse_loss",
+  "logvar_clip": [-4.0, 2.0],
+  "mc_samples_for_evaluation": 40,
+  "batchnorm_inference_during_mc": true,
+  "yr_max": 21.0,
+  "n_classes": 7,
+  "input_dim": 270,
+  "classes": [
+    "ABS",
+    "PBAT",
+    "PBS",
+    "PCL",
+    "PLA",
+    "PS",
+    "PVC"
+  ]
+}
